@@ -71,7 +71,10 @@ const createVote = async (req, res) => {
     // Broadcast the updated results to everyone viewing this poll
     io.to(pollOption.pollId).emit('poll-vote', {
       pollId: pollOption.pollId,
-      results: pollResults
+      results: pollResults,
+      userId: userId,
+      votedOptionId: pollOptionId,
+      votedOptionText: pollOption.text
     });
 
     res.status(201).json({ message: 'Vote recorded successfully', results: pollResults });

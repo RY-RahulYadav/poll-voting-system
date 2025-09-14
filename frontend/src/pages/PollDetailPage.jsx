@@ -100,14 +100,14 @@ export default function PollDetailPage() {
               <span>{formatDistanceToNow(new Date(currentPoll.createdAt))} ago</span>
             </div>
             {isOwner && (
-              <div style={{ display: 'flex', gap: 8 }}>
-                <button  className="btn btn-blue">
+              <div style={{ display: 'flex', gap: 8,  alignItems: 'center' }}>
+                <a  className="">
                   {displayedPublishState ? 'Published' : 'Unpublished'}
-                </button>
+                </a>
                
                 <button
                   onClick={handleStatusToggle}
-                  className={`btn ${displayedPublishState ? 'btn-outline' : 'btn-primary'}`}
+                  className={`btn ${displayedPublishState ? 'btn-blue' : 'btn-blue'}`}
                   style={{
                     borderRadius: 999,
                     borderWidth: 2,
