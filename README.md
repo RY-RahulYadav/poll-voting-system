@@ -23,7 +23,14 @@ A full-stack voting application for creating and participating in real-time poll
 
 ## Setup Instructions
 
-### Backend Setup
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/RY-RahulYadav/poll-voting-system.git
+cd poll-voting-system
+```
+
+### 2. Backend Setup
 
 1. **Navigate to backend directory:**
    ```bash
@@ -59,7 +66,7 @@ A full-stack voting application for creating and participating in real-time poll
    ```
    Backend will run on http://localhost:5000
 
-### Frontend Setup
+### 3. Frontend Setup
 
 1. **Navigate to frontend directory:**
    ```bash
