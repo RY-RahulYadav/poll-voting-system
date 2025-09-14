@@ -86,9 +86,9 @@ cd poll-voting-system
 
 4. **Start development server:**
    ```bash
-   npm start
+   npm run dev
    ```
-   Frontend will run on http://localhost:3000
+   Frontend will run on http://localhost:5173
 
 ## Environment Variables
 
