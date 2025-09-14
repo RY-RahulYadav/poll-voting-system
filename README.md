@@ -102,13 +102,3 @@ A full-stack voting application for creating and participating in real-time poll
 4. Share polls and see real-time vote updates
 5. Manage your polls (publish/unpublish/delete)
 
-## Troubleshooting
-
-- Ensure PostgreSQL is running and accessible
-- Check that both servers are running on correct ports
-- Verify environment variables are properly set
-- For database issues, try running `npx prisma migrate reset`
-
-## License
-
-This project is licensed under the MIT License.
